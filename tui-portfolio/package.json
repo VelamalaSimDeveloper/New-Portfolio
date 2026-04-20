@@ -1,0 +1,31 @@
+{
+  "name": "@baghel/portfolio",
+  "version": "1.0.0",
+  "description": "Devansh Baghel's interactive terminal portfolio — built with OpenTUI",
+  "type": "module",
+  "module": "src/index.tsx",
+  "bin": {
+    "portfolio": "./src/index.tsx"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "portfolio",
+    "terminal",
+    "tui",
+    "opentui",
+    "cli",
+    "interactive"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@opentui/core": "^0.1.90",
+    "@opentui/react": "^0.1.90",
+    "react": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.14"
+  }
+}
